@@ -16,11 +16,13 @@ import os
 class MainWindow(QMainWindow):
     def set_status(self, status: str):
         print(status)
+        self.ui.status_text.setText(status)
 
 
     def set_progress(self, progress: int):
         if current_max != 0:
             print(f"{progress}/{current_max}")
+            self.ui.prog_text.setText(f"{progress}/{current_max}")
             self.ui.install_pb.setValue(progress)
 
 
