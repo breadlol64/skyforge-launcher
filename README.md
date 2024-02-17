@@ -1,3 +1,3 @@
-#skyforge minecraft launcher
+# skyforge minecraft launcher
 ---
 simple miniecraft launcher
